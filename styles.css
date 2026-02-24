@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-nav {
+.nav-bar {
   background-color: #f7f5fa;
   padding: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -20,21 +20,21 @@ nav {
   align-items: center;
 }
 
-nav h2 {
+.site-title {
   font-family: "Sora";
   font-weight: 700;
   color: #c8b6ff;
   margin-left: 50px;
 }
 
-nav ul {
+.nav-list {
   list-style: none;
   display: flex;
   gap: 20px;
   margin-right: 50px;
 }
 
-nav a {
+.nav-link {
   color: #1e2430;
   font-family: "Inter", sans-serif;
   text-decoration: none;
@@ -60,7 +60,7 @@ nav a:hover {
   justify-content: center;
 }
 
-#hero .hero-content {
+.hero-content {
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@ nav a:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-#hero h1 {
+.hero-title {
   font-size: 48px;
   font-family: "Sora", sans-serif;
   font-weight: 700;
@@ -79,21 +79,21 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-#hero p {
+.hero-description {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #55616f;
 }
 
-#hero .hero-btn {
+.hero-btn {
   margin-top: 30px;
   display: flex;
   gap: 20px;
   justify-content: center;
 }
 
-#hero .first {
+.hero-button.first {
   background-color: #c8b6ff;
   color: #fff;
   border: none;
@@ -104,10 +104,10 @@ nav a:hover {
   cursor: pointer;
 }
 
-#hero .second {
+.hero-button.second {
   background-color: #fff;
   color: #55616f;
-  border: 0 solid #c8b6ff;
+  border: 1px solid #c8b6ff;
   padding: 10px 20px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -342,4 +342,18 @@ footer p {
   font-weight: 400;
   color: #55616f;
   margin-left: 12px;
+}
+
+@media (max-width: 600px) {
+  .about-divider,
+  .rooms-divider {
+    flex-direction: column;
+  }
+
+  .site-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

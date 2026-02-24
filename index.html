@@ -147,14 +147,31 @@
               Reach out to us and we'll respond shortly.
             </p>
             <form class="form-data" method="post" action="submit-url">
-              <input type="text" name="name" placeholder="Full Name" required />
-              <input type="email" name="email" placeholder="Email" required />
+              <input
+                type="text"
+                name="name"
+                placeholder="Full Name"
+                aria-label="Full Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                aria-label="Email"
+                required
+              />
               <input
                 type="tel"
                 name="number"
                 placeholder="Phone Number (optional)"
+                aria-label="Phone Number"
               />
-              <textarea name="message" placeholder="Your Message"></textarea>
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                aria-label="Your Message"
+              ></textarea>
               <button type="submit" class="submit-button">Send Message</button>
             </form>
           </div>
