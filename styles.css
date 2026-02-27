@@ -352,6 +352,11 @@ footer p {
     flex-direction: column;
   }
 
+  #hero {
+    background-attachment: scroll;
+    background-position: center;
+  }
+
   .site-footer {
     display: flex;
     flex-direction: column;
