@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(to bottom, #f0f4f8, #ded5fc);
+}
+
+#hero {
+  text-align: center;
+}
+
+.hero-title {
+  color: #1e2430;
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: 2.2rem;
+}
+
+.hero-subtitle {
+  color: #55616f;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 900px;
+  max-height: 500px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+#rooms {
+  padding-top: 70px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.room-list {
+  display: flex;
+  gap: 20px;
+}
+
+.room-card {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f5fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.room-name {
+  color: #1e2430;
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.room-description {
+  color: #55616f;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  margin: 15px;
+  font-size: 1rem;
+}
+
+.residents {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #55616f;
+  margin-top: 30px;
+}
+
+#amenities {
+  padding-top: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.amenities-title {
+  color: #1e2430;
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+hr {
+  border-top: 1px solid #c4b5f8;
+  margin: 30px;
+}
+
+.amenities-title {
+  color: #1e2430;
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.amenities-list {
+  list-style: none;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e6e1fc;
+  margin-top: 50px;
+}
+
+.cta-title {
+  font-family: "Inter", sans-serif;
+  color: #55616f;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #c4b5f8;
+  color: #f7f5fa;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+}
+
+.cta-button:hover {
+  background-color: #b19cd9;
+}
+
+.cta-note {
+  font-family: "Inter", sans-serif;
+  color: #55616f;
+  font-weight: 300;
+  margin-top: 30px;
+}
